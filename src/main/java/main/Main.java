@@ -35,7 +35,7 @@ public class Main {
         frame.add(new JLabel("Login:"), gbc);
 
         gbc.gridx = 1;
-        frame.add(loginField = new JTextField(width / 50), gbc);
+        frame.add(loginField = new JTextField(screenSize.width / 80), gbc);
 
         // PASSWORD
         gbc.gridx = 0;
@@ -43,7 +43,7 @@ public class Main {
         frame.add(new JLabel("Password:"), gbc);
 
         gbc.gridx = 1;
-        frame.add(passwordField = new JPasswordField(width / 50), gbc);
+        frame.add(passwordField = new JPasswordField(screenSize.width / 80), gbc);
 
         // ENTER
         gbc.gridx = 0;
